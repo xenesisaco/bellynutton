@@ -1,0 +1,57 @@
+body {
+    font-family: "Times New Roman"; 
+    font-size: small;
+}
+
+
+
+.jumbotron {
+    background-image: url("../images/banner.png");
+    background-size: 160% 160%;
+    color: #e3e9d5;
+}
+
+h6 {
+    font-family: "Times New Roman";
+    font-weight: bolder;
+}
+
+
+select#selDataset {
+    border: 1px solid rgb(102, 128, 247);
+    border-radius: 5px;
+    position: relative;
+
+    background-image:
+    linear-gradient(45deg, transparent 50%,transparent 50%),
+    linear-gradient(135deg, transparent 50%, transparent 50%),
+    linear-gradient(to right, skyblue, skyblue);
+
+    background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    100% 0;
+    background-size:
+    5px 5px,
+    5px 5px,
+    1.5em 1.5em;
+    background-repeat: no-repeat;
+}
+
+select#selDataset:focus {
+    background-image:
+    linear-gradient(45deg, transparent 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, transparent 50%),
+    linear-gradient(to right, gray, gray);
+    background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    100% 0;
+    background-size:
+    5px 5px,
+    5px 5px,
+    1.5em 1.5em;
+    background-repeat: no-repeat;
+    border-color: grey;
+    outline: 0;
+}
